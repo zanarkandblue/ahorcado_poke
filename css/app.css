@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    background: blue;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    color:yellow;
+}
+
+main {
+    padding: 20px;
+    margin: auto;
+    background: whitesmoke;
+
+}
+
+
+#imagen{
+    padding: 20px;
+   
+    }
+
+
+
+    button {
+               background-color: #83ffda;
+        color: #1998ff;
+        border: 1px solid #1998ff;
+        border-radius: 4px;
+      }
+
+      button:hover{
+        cursor: pointer;
+        background-color: #effdf9;
+
+      }
+
+      button:disabled{ 
+        background-color: #effdf9;
+
+
+      }
+      
+#botones_letras     button {
+        width: 24px;
+        height: 24px;
+        background-color: #83ffda;
+        color: #1998ff;
+        border: 1px solid #1998ff;
+        border-radius: 4px;
+      }
+
+  
+
+
+
+      #palabra_a_adivinar{
+        height: 3em;
+      }
+    
+    #palabra_a_adivinar span{
+        vertical-align: bottom;
+        font-size: 2em;
+        border-bottom: 2px solid black;
+        width: 30px;
+        text-align: center;
+        margin-right: 6px;
+        display: inline-block; /* sin esto, por ser un elemento de línea, no tomaría el width */
+    }
